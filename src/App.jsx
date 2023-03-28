@@ -1,13 +1,14 @@
+import Header from "./components/Header/Header";
+import Shop from "./components/Shop/Shop";
 
 function App() {
-
+  
   return (
-    <div>
-      <h1 className="text-3xl font-bold">
-      Hello world!
-    </h1>
+    <div className="w-11/12 mx-auto">
+      <Header></Header>
+      <Shop></Shop>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
