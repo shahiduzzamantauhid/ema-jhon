@@ -23,6 +23,7 @@ const Product = (props) => {
         </div>
       </div>
     </div>
+    <p>Hello world</p>
     </div>
   );
 };
